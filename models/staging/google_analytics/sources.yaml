@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: google_analytics
+    database: RAW
+    schema: GOOGLE_ANALYTICS
+    tables:
+      - name: events_report
+        description: "The events happening on the tutorial website."

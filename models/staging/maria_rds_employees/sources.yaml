@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: maria_rds_employees
+    database: RAW
+    schema: MARIA_RDS_EMPLOYEES
+    tables:
+      - name: departments
+        description: "The employee departments table."
+      - name: employees
+        description: "General employee information."
